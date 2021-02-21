@@ -375,7 +375,7 @@
     position: absolute;
     bottom:0;
     transition: 0.7s;
-    background-color:rgb(36, 36, 139);
+    background-color:rgb(20, 112, 148);
    
 }
 .myskill:hover .bottom4{
@@ -583,7 +583,7 @@ button:hover, button:focus {
     }
 }
 .icons i{
-    font-size: 24px;
+    font-size: 35px;
     margin-right: 7px;
 }
 .icons a{
@@ -606,13 +606,12 @@ button:hover, button:focus {
 .phone{
     font-family: 'Raleway', sans-serif;
 }
-@media (max-width:560px){
+
+@media (max-width:600px){
     .icons i{
-        font-size: 18px;
+        font-size: 35px;
         margin-right: 7px;
     }
-}
-@media (max-width:464px){
     .footer{
         flex-direction: column;
         align-items: center;
